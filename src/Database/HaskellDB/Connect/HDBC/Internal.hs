@@ -49,7 +49,7 @@ mkDatabase gen connection
 		 dbTables       = hdbcTables          connection,
 		 dbDescribe     = hdbcDescribe        connection,
 		 dbTransaction  = hdbcTransaction     connection,
-#if MIN_VERSION_haskelldb(2,2,1)
+#if MIN_VERSION_haskelldb(2,1,1)
                  dbCommit       = HDBC.commit         connection,
 #endif
 		 dbCreateDB     = hdbcCreateDB    gen connection,
