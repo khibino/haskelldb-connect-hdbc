@@ -1,8 +1,8 @@
 name:                haskelldb-connect-hdbc
 version:             0.1.0.0
-synopsis:            Bracketed HDBC session for haskelldb
+synopsis:            Bracketed HDBC session for HaskellDB
 description:         This package includes module used from
-                     concrete session impelemntation
+                     concrete HDBC session impelemntation
                      with individual bracket implementation.
 homepage:            http://twitter.com/khibino
 license:             BSD3
@@ -16,6 +16,7 @@ cabal-version:       >=1.8
 
 library
   exposed-modules:     Database.HaskellDB.Connect.HDBC
+                       Database.HaskellDB.Connect.HDBC.Simple
   other-modules:       Database.HaskellDB.Connect.HDBC.Internal
 
   build-depends:       base < 5
