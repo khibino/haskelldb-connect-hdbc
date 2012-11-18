@@ -28,6 +28,9 @@ Build-Depends-Indep: ghc-doc,
                      libghc-transformers-base-doc
 Standards-Version: 3.9.1
 Homepage: http://twitter.com/khibino
+Vcs-Browser: https://bitbucket.org/khibino/haskelldb-connect-hdbc/src
+Vcs-Hg: https://bitbucket.org/khibino/haskelldb-connect-hdbc
+Vcs-Git: git://github.com/khibino/haskelldb-connect-hdbc.git
 
 Package: libghc-haskelldb-connect-hdbc-lifted-dev
 Architecture: any
