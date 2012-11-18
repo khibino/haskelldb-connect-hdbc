@@ -1,7 +1,7 @@
 name:                haskelldb-connect-hdbc-lifted
 version:             0.1.0.0
-synopsis:            Bracketed HaskellDB session using lifted-base
-description:         This package includes bracketed session function
+synopsis:            Bracketed HaskellDB HDBC session using lifted-base
+description:         This package includes bracketed HDBC session function
                      using lifted-base for HaskellDB.
 homepage:            http://twitter.com/khibino
 license:             BSD3

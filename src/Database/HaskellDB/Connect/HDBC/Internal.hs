@@ -2,7 +2,9 @@
 -----------------------------------------------------------
 -- |
 -- Module      :  Database.HaskellDB.Connect.HDBC.Internal
--- Copyright   :  Kei Hibino <ex8k.hibino@gmail.com>
+-- Copyright   :  HWT Group 2003,
+--                Bjorn Bringert 2005-2006,
+--                Kei Hibino 2012
 -- License     :  BSD-style
 --
 -- Maintainer  :  ex8k.hibino@gmail.com

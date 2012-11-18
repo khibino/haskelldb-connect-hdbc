@@ -1,12 +1,14 @@
 -----------------------------------------------------------
 -- |
 -- Module      :  Database.HaskellDB.Connect.HDBC.CatchIO
--- Copyright   :  Kei Hibino
+-- Copyright   :  Kei Hibino 2012
 -- License     :  BSD-style
 --
 -- Maintainer  :  ex8k.hibino@gmail.com
 -- Stability   :  experimental
 -- Portability :  portable
+--
+-- Bracketed HaskellDB session with 'MonadCatchIO'.
 --
 -----------------------------------------------------------
 module Database.HaskellDB.Connect.HDBC.CatchIO (
