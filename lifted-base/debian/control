@@ -1,0 +1,79 @@
+Source: haskell-haskelldb-connect-hdbc-lifted
+Priority: extra
+Section: haskell
+Maintainer: Kei HIBINO <hibi@utmc.or.jp>
+Build-Depends: debhelper (>= 7.0),
+               haskell-devscripts (>= 0.8),
+               cdbs,
+               ghc,
+               ghc-prof,
+               libghc-hdbc-dev,
+               libghc-hdbc-prof,
+               libghc-haskelldb-dev,
+               libghc-haskelldb-prof,
+               libghc-haskelldb-connect-hdbc-dev,
+               libghc-haskelldb-connect-hdbc-prof,
+               libghc-lifted-base-dev,
+               libghc-lifted-base-prof,
+               libghc-monad-control-dev,
+               libghc-monad-control-prof,
+               libghc-transformers-base-dev,
+               libghc-transformers-base-prof
+Build-Depends-Indep: ghc-doc,
+                     libghc-hdbc-doc,
+                     libghc-haskelldb-doc,
+                     libghc-haskelldb-connect-hdbc-doc,
+                     libghc-lifted-base-doc,
+                     libghc-monad-control-doc,
+                     libghc-transformers-base-doc
+Standards-Version: 3.9.1
+Homepage: http://twitter.com/khibino
+
+Package: libghc-haskelldb-connect-hdbc-lifted-dev
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${haskell:Depends},
+         ${misc:Depends}
+Recommends: ${haskell:Recommends}
+Suggests: ${haskell:Suggests}
+Provides: ${haskell:Provides}
+Description: Bracketed HaskellDB session using lifted-base
+ This package includes bracketed session function
+ using lifted-base for HaskellDB.
+ .
+  Author: Kei Hibino <ex8k.hibino@gmail.com>
+  Upstream-Maintainer: Kei Hibino <ex8k.hibino@gmail.com>
+ .
+ This package contains the normal library files.
+
+Package: libghc-haskelldb-connect-hdbc-lifted-prof
+Architecture: any
+Depends: ${haskell:Depends},
+         ${misc:Depends}
+Recommends: ${haskell:Recommends}
+Suggests: ${haskell:Suggests}
+Provides: ${haskell:Provides}
+Description: Bracketed HaskellDB session using lifted-base
+ This package includes bracketed session function
+ using lifted-base for HaskellDB.
+ .
+  Author: Kei Hibino <ex8k.hibino@gmail.com>
+  Upstream-Maintainer: Kei Hibino <ex8k.hibino@gmail.com>
+ .
+ This package contains the libraries compiled with profiling enabled.
+
+Package: libghc-haskelldb-connect-hdbc-lifted-doc
+Architecture: all
+Section: doc
+Depends: ${haskell:Depends},
+         ${misc:Depends}
+Recommends: ${haskell:Recommends}
+Suggests: ${haskell:Suggests}
+Description: Bracketed HaskellDB session using lifted-base
+ This package includes bracketed session function
+ using lifted-base for HaskellDB.
+ .
+  Author: Kei Hibino <ex8k.hibino@gmail.com>
+  Upstream-Maintainer: Kei Hibino <ex8k.hibino@gmail.com>
+ .
+ This package contains the documentation files.
