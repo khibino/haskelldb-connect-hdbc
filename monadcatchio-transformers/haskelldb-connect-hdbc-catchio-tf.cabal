@@ -1,4 +1,4 @@
-name:                haskelldb-connect-hdbc-catchio-transformers
+name:                haskelldb-connect-hdbc-catchio-tf
 version:             0.1.0.0
 synopsis:            Bracketed HaskellDB HDBC session using MonadCatchIO-transformers
 description:         This package includes bracketed HDBC session function

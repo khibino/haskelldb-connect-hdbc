@@ -1,4 +1,4 @@
-Source: haskell-haskelldb-connect-hdbc-catchio-transformers
+Source: haskell-haskelldb-connect-hdbc-catchio-tf
 Priority: extra
 Section: haskell
 Maintainer: Kei HIBINO <hibi@utmc.or.jp>
@@ -29,7 +29,7 @@ Vcs-Browser: https://bitbucket.org/khibino/haskelldb-connect-hdbc/src
 Vcs-Hg: https://bitbucket.org/khibino/haskelldb-connect-hdbc
 Vcs-Git: git://github.com/khibino/haskelldb-connect-hdbc.git
 
-Package: libghc-haskelldb-connect-hdbc-catchio-transformers-dev
+Package: libghc-haskelldb-connect-hdbc-catchio-tf-dev
 Architecture: any
 Depends: ${shlibs:Depends},
          ${haskell:Depends},
@@ -46,7 +46,7 @@ Description: Bracketed HaskellDB session using MonadCatchIO-transformers
  .
  This package contains the normal library files.
 
-Package: libghc-haskelldb-connect-hdbc-catchio-transformers-prof
+Package: libghc-haskelldb-connect-hdbc-catchio-tf-prof
 Architecture: any
 Depends: ${haskell:Depends},
          ${misc:Depends}
@@ -62,7 +62,7 @@ Description: Bracketed HaskellDB session using MonadCatchIO-transformers
  .
  This package contains the libraries compiled with profiling enabled.
 
-Package: libghc-haskelldb-connect-hdbc-catchio-transformers-doc
+Package: libghc-haskelldb-connect-hdbc-catchio-tf-doc
 Architecture: all
 Section: doc
 Depends: ${haskell:Depends},
